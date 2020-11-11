@@ -3,8 +3,8 @@ from time import sleep
 import os
 
 def main():
-IP = input('Digite o ip do provedor a ser consultado: ')
-print('033[94;1mConsultando IP do provedor...')
+    IP = input('Digite o ip do provedor a ser consultado: ')
+    print('033[94;1mConsultando IP do provedor...')
 
 
 def banner():
