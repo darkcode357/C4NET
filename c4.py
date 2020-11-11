@@ -9,7 +9,7 @@ def main():
 
 def banner():
     os.system("clear")
-    print("033[91;1mCarregando =========")
+    print("Carregando...")
     sleep(2)
     print("""________ __  _   ______________
   / ____/ // / / | / / ____/_  __/
@@ -17,10 +17,10 @@ def banner():
 / /___/__  __/ /|  / /___  / /
 \____/
     """)
+    sleep(2)
     os.system(
     "toilet -f sbmloc --filter -borde r;metal ' C4NET")
-    print('033[94;1mDesenvolvido por: 0x0a')
-    os.system("clear")
+    print('Desenvolvido por: 0x0a')
 banner()
 
 try:
@@ -33,7 +33,15 @@ try:
     ip = r['query']
     pais = r['country']
 except valueError:
-    print('033[94;1mPara utilizar esse script você precisa instalar os requests do pip utize, pip install requests')
+    print('Para utilizar esse script você precisa instalar os requests do pip utize, pip install requests')
+try:
+    File "/data/data/com.termux/files/home/C4NET/c4.py", line 26, in <module>
+    IP = input('Digite o ip do provedor a ser consultado: ')
+KeyboardInterrupt
+
+except valueError:
+    print('Você escolheu sair. obrigado pela preferencia')
+
 while True:
     r = reqs.get('http://ip-api.com/json/'+IP).json()
     ip = r['query']
