@@ -10,7 +10,7 @@ R = '\x1b[1;31m'
 G = '\x1b[1;32m'
 Y = '\x1b[1;33m'
 C = '\x1b[1;36m'
-wd = '\x1b[90;1m'
+WD = '\x1b[90;1m'
 GL = '\x1b[96;1m'
 BB = '\x1b[34;1m'
 GG = '\x1b[32;1m'
@@ -67,7 +67,7 @@ try:
 KeyboardInterrupt
 
 except valueError:
-    print(wd'Você escolheu sair. obrigado pela preferencia')
+    print(WD'Você escolheu sair. obrigado pela preferencia')
 
 while True:
     r = reqs.get('http://ip-api.com/json/'+IP).json()
