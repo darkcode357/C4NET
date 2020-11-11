@@ -16,6 +16,7 @@ def banner():
 """)
     os.system(
 "toilet -f sbmloc --filter -borde r;metal ' C4NET")
+    print('033[94;1mDesenvolvido por: 0x0a')
 banner()
 
 try:
