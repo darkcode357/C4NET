@@ -2,7 +2,7 @@ import requests as reqs
 def main():
     IP=input('Digite o ip do provedor a ser consultado: ')
     print('Consultando IP do provedor...')
-while true:
+while True:
     r=reqs.get('http://ip-api.com/json/'+IP).json()
     ip=r['query']
     pais=r['country']
