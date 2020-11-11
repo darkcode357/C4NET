@@ -1,6 +1,14 @@
+#------------------------------------#
+#    CREATED  BY:   0x0a λ           #
+#   time: 10/11/2020                 #
+#   python version: 3.8              #
+#------------------------------------#
+
+
 import requests as reqs
 from time import sleep
 import os
+import fileinput
 
 N = '\x1b[0m'
 D = '\x1b[90m'
