@@ -28,6 +28,17 @@ class Collors:
     Cyan2 = '\033[1;46m'
     CinzaC1 = '\033[1;37m'
     CinzaC2 = '\033[1;47m'
+    CinzaE1 = '\033[1;90m'
+    CinzaE2 = '\033[1;100m'
+    VermelhoC1 = '\033[1;91m'
+    Vermelhoc2 = '\033[1;101m'
+    VerdeC1 = '\033[1;92m'
+    VerdeC2 = '\033[1;101m'
+    AmareloC1 = '\033[1;93m'
+    AmareloC2 = '\033[1;103m'
+    AzulC1 = '\033[1;94m'
+    AzulC2 = '\033[1;104m'
+    
 
 def runntxt(s):
     for noobs in s + '\n':
@@ -80,19 +91,25 @@ KeyboardInterrupt
 except valueError:
     print('Você escolheu sair. obrigado pela preferencia')
 
-while True:
-    r = reqs.get('http://ip-api.com/json/'+IP).json()
-    ip = r['query']
-    pais = r['country']
-    provedor = r['isp']
-print(f'''
-    IP: {
-    ip
+class api: 
+    def _init_(self, tk, search()):
+        self.tk = tk
+        self.search = search
+        
+        class metodo:
+            
+        r = reqs.get('http://ip-api.com/json/'+IP).json()
+        ip = r['query']
+        pais = r['country']
+        provedor = r['isp']
+            print(f'''
+                IP: {
+                ip
 }
-    Pais: {
-    pais
+                Pais: {
+                pais
 }
-    Provedor {
-    provedor
+               Provedor {
+               provedor
 }
     ''')
