@@ -5,32 +5,29 @@
 #------------------------------------#
 
 
+
 import requests as reqs
 from time import sleep
 import os
 import fileinput
 
-def collors():
-    N = '\x1b[0m'
-    D = '\x1b[90m'
-    W = '\x1b[1;37m'
-    B = '\x1b[1;34m'
-    R = '\x1b[1;31m'
-    G = '\x1b[1;32m'
-    Y = '\x1b[1;33m'
-    C = '\x1b[1;36m'
-    WD = '\x1b[90;1m'
-    GL = '\x1b[96;1m'
-    BB = '\x1b[34;1m'
-    GG = '\x1b[32;1m'
-    RR = '\x1b[31;1m'
-    B = '\x1b[34m'
-    G = '\x1b[32m'
-    R = '\x1b[31m'
-    ask = G + '[' + W + '?' + G + '] '
-    sukses = G + '[' + W + '\xe2\x88\x9a' + G + '] '
-    eror = R + '[' + W + '!' + R + ']'
-collor()
+class Collors:
+    Preto1 = '\033[1;30m'
+    Preto2 = '\033[1;40m'
+    Vermelho1 = '\033[1;31m'
+    Vermelho2 = '\033[1;41m'
+    Verde1 = '\033[1;32m'
+    Verde2 = '\033[1;42m'
+    Amarelo1 = '\033[1;33m'
+    Amarelo2 = '\033[1;43m'
+    Azul1 = '\033[1;34m'
+    Azul2 = '\033[1;34m'
+    Magneta1 = '\033[1;35m'
+    Magneta2 = '\033[1;45m'
+    Cyan1 = '\033[1;36m'
+    Cyan2 = '\033[1;46m'
+    CinzaC1 = '\033[1;37m'
+    CinzaC2 = '\033[1;47m'
 
 def runntxt(s):
     for noobs in s + '\n':
