@@ -53,7 +53,7 @@ def main():
     sleep(2)
     os.system("clear")
     IP = input('\033[1;91m\033[1;93mDigite o ip do provedor a ser consultado:  ')
-     print('\033[1;91m\033[1;93mPara sair pressione ctrl + C')
+    print('\033[1;91m\033[1;93mPara sair pressione ctrl + C')
     print('\033[1;91m\033[1;93mConsultando IP do provedor...')
 
 
