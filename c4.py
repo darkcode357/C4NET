@@ -44,13 +44,13 @@ def main():
     print('disclammer: I developer is not responsible for the actions of users')
     sleep(2)
     os.system("clear")
-    IP = input(GL'Digite o ip do provedor a ser consultado: ')
-    print(GL'Consultando IP do provedor...')
+    IP = input('\x1b[32;1m Digite o ip do provedor a ser consultado:  \x1b[90;1m')
+    print('\x1b[32;1m Consultando IP do provedor...')
 
 
 def banner():
     os.system("clear")
-    print("Carregando...")
+    print("\x1b[32;1m Carregando...")
     sleep(2)
     print("""________ __  _   ______________
   / ____/ // / / | / / ____/_  __/
@@ -61,7 +61,7 @@ def banner():
     sleep(2)
     os.system(
     "toilet -f sbmloc --filter -borde r;metal ' C4NET")
-    print('Desenvolvido por: 0x0a')
+    print('\x1b[32;1m Desenvolvido por: 0x0a')
 banner()
 
 try:
@@ -74,7 +74,7 @@ try:
     ip = r['query']
     pais = r['country']
 except valueError:
-    print(RR'Para utilizar esse script você precisa instalar os requests do pip utize, pip install requests')
+    print('Para utilizar esse script você precisa instalar os requests do pip utize, pip install requests')
 try:
     File "/data/data/com.termux/files/home/C4NET/c4.py", line 26, in <module>
     IP = input('Digite o ip do provedor a ser consultado: ')
