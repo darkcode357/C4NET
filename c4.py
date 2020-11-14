@@ -84,7 +84,6 @@ try:
 except valueError:
     print('Para utilizar esse script você precisa instalar os requests do pip utize, pip install requests')
 try:
-    File "/data/data/com.termux/files/home/C4NET/c4.py", line 26, in <module>
     IP = input('Digite o ip do provedor a ser consultado: ')
 KeyboardInterrupt
 
