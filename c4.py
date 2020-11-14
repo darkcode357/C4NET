@@ -48,17 +48,18 @@ def runntxt(s):
 runntxt()
 
 def main():
-    print('\x1b[32;1m Avisos legais: Eu desenvolvedor não me responsabilizo pelos atos dos usuarios dessa tool.')
-    print('\x1b[32;1m disclammer: I developer is not responsible for the actions of users')
+    print('\033[1;91m\033[1;93mAvisos legais: Eu desenvolvedor não me responsabilizo pelos atos dos usuarios dessa tool.')
+    print('\033[1;91m\033[1;93mDisclammer: I developer is not responsible for the actions of users')
     sleep(2)
     os.system("clear")
-    IP = input('\x1b[32;1m Digite o ip do provedor a ser consultado:  \x1b[90;1m')
-    print('\x1b[32;1m Consultando IP do provedor...')
+    IP = input('\033[1;91m\033[1;93mDigite o ip do provedor a ser consultado:  ')
+     print('\033[1;91m\033[1;93mPara sair pressione ctrl + C')
+    print('\033[1;91m\033[1;93mConsultando IP do provedor...')
 
 
 def banner():
     os.system("clear")
-    print("\x1b[32;1m Carregando...")
+    print("\033[1;91m\033[1;93mCarregando...")
     sleep(2)
     print("""________ __  _   ______________
   / ____/ // / / | / / ____/_  __/
@@ -69,7 +70,7 @@ def banner():
     sleep(2)
     os.system(
     "toilet -f sbmloc --filter -borde r;metal ' C4NET")
-    print('\x1b[32;1m Desenvolvido por: 0x0a')
+    print('\033[1;91m\033[1;93mDesenvolvido por: 0x0a')
 banner()
 
 try:
@@ -84,8 +85,7 @@ try:
 except valueError:
     print('Para utilizar esse script você precisa instalar os requests do pip utize, pip install requests')
 try:
-    IP = input('Digite o ip do provedor a ser consultado: ')
-KeyboardInterrupt
+    print('Para sair pressione ctrl + C')
 
 except valueError:
     print('Você escolheu sair. obrigado pela preferencia')
