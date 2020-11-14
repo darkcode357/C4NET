@@ -91,7 +91,7 @@ except valueError:
     print('Você escolheu sair. obrigado pela preferencia')
 
 class api: 
-    def _init_(self, tk, search():
+    def _init_(self, tk, search):
         self.tk = tk
         self.search = search
         
