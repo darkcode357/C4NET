@@ -40,8 +40,8 @@ def runntxt(s):
 runntxt()
 
 def main():
-    print('Avisos legais: Eu desenvolvedor não me responsabilizo pelos atos dos usuarios dessa tool.')
-    print('disclammer: I developer is not responsible for the actions of users')
+    print('\x1b[32;1m Avisos legais: Eu desenvolvedor não me responsabilizo pelos atos dos usuarios dessa tool.')
+    print('\x1b[32;1m disclammer: I developer is not responsible for the actions of users')
     sleep(2)
     os.system("clear")
     IP = input('\x1b[32;1m Digite o ip do provedor a ser consultado:  \x1b[90;1m')
