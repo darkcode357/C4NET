@@ -40,6 +40,10 @@ def runntxt(s):
 runntxt()
 
 def main():
+    print(B'Avisos legais: Eu desenvolvedor não me responsabilizo pelos atos dos usuarios dessa tool.')
+    print(B'disclammer: I developer is not responsible for the actions of users')
+    sleep(2)
+    os.system("clear")
     IP = input(GL'Digite o ip do provedor a ser consultado: ')
     print(GL'Consultando IP do provedor...')
 
