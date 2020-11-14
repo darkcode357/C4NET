@@ -40,8 +40,8 @@ def runntxt(s):
 runntxt()
 
 def main():
-    print(B'Avisos legais: Eu desenvolvedor não me responsabilizo pelos atos dos usuarios dessa tool.')
-    print(B'disclammer: I developer is not responsible for the actions of users')
+    print('Avisos legais: Eu desenvolvedor não me responsabilizo pelos atos dos usuarios dessa tool.')
+    print('disclammer: I developer is not responsible for the actions of users')
     sleep(2)
     os.system("clear")
     IP = input(GL'Digite o ip do provedor a ser consultado: ')
@@ -50,7 +50,7 @@ def main():
 
 def banner():
     os.system("clear")
-    print(WD"Carregando...")
+    print("Carregando...")
     sleep(2)
     print("""________ __  _   ______________
   / ____/ // / / | / / ____/_  __/
@@ -67,7 +67,7 @@ banner()
 try:
     IP = input('Digite o ip do provedor a ser consultado: ')
 except valueError:
-    print(BB'Utilize somente numeros em ip. não consultamos mac addres')
+    print('Utilize somente numeros em ip. não consultamos mac addres')
 
 try:
     r = reqs.get('http://ip-api.com/json/'+IP).json()
@@ -81,7 +81,7 @@ try:
 KeyboardInterrupt
 
 except valueError:
-    print(WD'Você escolheu sair. obrigado pela preferencia')
+    print('Você escolheu sair. obrigado pela preferencia')
 
 while True:
     r = reqs.get('http://ip-api.com/json/'+IP).json()
