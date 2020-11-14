@@ -97,18 +97,19 @@ class api:
         
         class metodo:
             
-        r = reqs.get('http://ip-api.com/json/'+IP).json()
-        ip = r['query']
-        pais = r['country']
-        provedor = r['isp']
-            print(f'''
-                IP: {
-                ip
+            
+            r = reqs.get('http://ip-api.com/json/'+IP).json()
+            ip = r['query']
+            pais = r['country']
+            provedor = r['isp']
+                print(f'''
+                    IP: {
+                    ip
 }
-                Pais: {
-                pais
+                    Pais: {
+                    pais
 }
-               Provedor {
-               provedor
+                   Provedor {
+                   provedor
 }
     ''')
