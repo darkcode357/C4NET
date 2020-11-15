@@ -1,3 +1,3 @@
 <h1 align="center">
     <br>
-        <img src="./mobile/github/logo_python.png" all="C4NET" width="120">
+        <img src="https://www.github.com/xXh4x0RXx/C4NET/tree/main/Logo_Python.png" all="C4NET" width="120">
