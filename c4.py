@@ -46,8 +46,9 @@ def runntxt(s):
         sys.stdout.flush()
         time.sleep(10 / 2100)
 
+runntxt(s)
 
-def main():
+def dependencias():
     print('\033[1;91m\033[1;93mAvisos legais: Eu desenvolvedor não me responsabilizo pelos atos dos usuarios dessa tool.')
     print('\033[1;91m\033[1;93mDisclammer: I developer is not responsible for the actions of users')
     sleep(2)
@@ -56,6 +57,7 @@ def main():
     print('\033[1;91m\033[1;93mPara sair pressione ctrl + C')
     print('\033[1;91m\033[1;93mConsultando IP do provedor...')
 
+dependencias()
 
 def banner():
     os.system("clear")
@@ -71,7 +73,7 @@ def banner():
     os.system(
     "toilet -f sbmloc --filter -borde r;metal ' C4NET")
     print('\033[1;91m\033[1;93mDesenvolvido por: 0x0a')
-
+banner()
 
 try:
     IP = input('Digite o ip do provedor a ser consultado: ')
