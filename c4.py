@@ -115,4 +115,13 @@ class api:
             Provedor {
             provedor
 }
+            Latitude{
+            latitude
+}
+            Longitude{
+            longitude
+}
+            Horario local{
+            horario_local
+}
     ''')
