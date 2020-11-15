@@ -40,14 +40,6 @@ class Collors:
     AzulC2 = '\033[1;104m'
     
 
-def runntxt(s):
-    for noobs in s + '\n':
-        sys.stdout.write(noobs)
-        sys.stdout.flush()
-        time.sleep(10 / 2100)
-
-runntxt(s)
-
 def dependencias():
     print('\033[1;91m\033[1;93mAvisos legais: Eu desenvolvedor não me responsabilizo pelos atos dos usuarios dessa tool.')
     print('\033[1;91m\033[1;93mDisclammer: I developer is not responsible for the actions of users')
