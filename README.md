@@ -2,22 +2,22 @@ Ola, sou o desenvolvedor do C4NET!
 para utilizar é muito facil.
 os comandos são:
 
-pkg update && pkg upgrade -y
+#pkg update && pkg upgrade -y
 
 
-pkg install git -y
+#pkg install git -y
 
 
-git clone https://github.com/xXh4x0RXx/C4NET
+#git clone https://github.com/xXh4x0RXx/C4NET
 
 
-ls
+#ls
 
 
-cd C4NET
+#cd C4NET
 
 
-bash install.sh
+#bash install.sh
 
 
-python3 c4.py
+#python3 c4.py
