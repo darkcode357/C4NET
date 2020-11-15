@@ -100,7 +100,11 @@ class api:
             r = reqs.get('http://ip-api.com/json/'+IP).json()
             ip = r['query']
             pais = r['country']
+            latitude = r['lat']
+            longitude = r['lon']
             provedor = r['isp']
+            horario_local = r['timezone']
+            
             print(f'''
             IP: {
             ip
