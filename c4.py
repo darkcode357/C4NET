@@ -45,7 +45,7 @@ def runntxt(s):
         sys.stdout.write(noobs)
         sys.stdout.flush()
         time.sleep(10 / 2100)
-runntxt()
+
 
 def main():
     print('\033[1;91m\033[1;93mAvisos legais: Eu desenvolvedor não me responsabilizo pelos atos dos usuarios dessa tool.')
@@ -71,7 +71,7 @@ def banner():
     os.system(
     "toilet -f sbmloc --filter -borde r;metal ' C4NET")
     print('\033[1;91m\033[1;93mDesenvolvido por: 0x0a')
-banner()
+
 
 try:
     IP = input('Digite o ip do provedor a ser consultado: ')
