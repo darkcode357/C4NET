@@ -51,8 +51,7 @@ def banner():
 \____/
     """)
     sleep(2)
-    os.system(
-    "toilet -f sbmloc --filter -borde r;metal ' C4NET")
+ 
     print('\033[1;91m\033[1;93mDesenvolvido por: 0x0a')
     sleep(20)
     print('Carregando...')
@@ -61,11 +60,19 @@ banner()
 
 def dependencias():
     print('\033[1;91m\033[1;93mAvisos legais: Eu desenvolvedor não me responsabilizo pelos atos dos usuarios dessa tool.')
+    
+    
     print('\033[1;91m\033[1;93mDisclammer: I developer is not responsible for the actions of users')
+    
+    
     sleep(2)
     os.system("clear")
     IP = input('\033[1;91m\033[1;93mDigite o ip do provedor a ser consultado:  ')
+    
+    
     print('\033[1;91m\033[1;93mPara sair pressione ctrl + C')
+    
+    
     print('\033[1;91m\033[1;93mConsultando IP do provedor...')
 
 dependencias()
