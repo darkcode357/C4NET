@@ -5,4 +5,5 @@ pkg install python -y
 pip install --upgrade pip
 pip install requests
 pkg install toilet -y
-fi
+
+done
