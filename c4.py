@@ -59,14 +59,15 @@ def banner():
 banner()
 
 def dependencias():
-    print('\033[1;91m\033[1;93mAvisos legais: Eu desenvolvedor não me responsabilizo pelos atos dos usuarios dessa tool.')
+    print('\033[1;91m\033[1;93m.:.:.Avisos legais: Eu desenvolvedor não me responsabilizo pelos atos dos usuarios dessa tool.:.:.')
     
     
-    print('\033[1;91m\033[1;93mDisclammer: I developer is not responsible for the actions of users')
+    print('\033[1;91m\033[1;93m.:.:. Disclammer: I developer is not responsible for the actions of users.:.:.')
     
     
     sleep(2)
     os.system("clear")
+    
     IP = input('\033[1;91m\033[1;93mDigite o ip do provedor a ser consultado:  ')
     
     
@@ -124,4 +125,11 @@ class api:
             Horario local{
             horario_local
 }
+
     ''')
+print(ip)
+print(pais)
+print(provedor)
+print(latitude)
+print(longitude)
+print(horario_local)
