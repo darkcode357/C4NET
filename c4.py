@@ -102,14 +102,14 @@ class api:
             ip = r['query']
             pais = r['country']
             provedor = r['isp']
-                print(f'''
-                    IP: {
-                    ip
+            print(f'''
+            IP: {
+            ip
 }
-                    Pais: {
-                    pais
+            Pais: {
+            pais
 }
-                   Provedor {
-                   provedor
+            Provedor {
+            provedor
 }
     ''')
