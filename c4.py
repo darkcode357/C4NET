@@ -82,12 +82,7 @@ try:
 except valueError:
     print('Utilize somente numeros em ip. não consultamos mac addres')
 
-try:
-    r = reqs.get('http://ip-api.com/json/'+IP).json()
-    ip = r['query']
-    pais = r['country']
-except valueError:
-    print('Para utilizar esse script você precisa instalar os requests do pip utize, pip install requests')
+
 try:
     print('Para sair pressione ctrl + C')
 
