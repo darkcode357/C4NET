@@ -127,9 +127,8 @@ class api:
 }
 
     ''')
-print(ip)
-print(pais)
-print(provedor)
-print(latitude)
-print(longitude)
-print(horario_local)
+            print(ip)
+            print(provedor)
+            print(latitude)
+            print(longitude)
+            print(horario_local)
